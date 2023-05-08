@@ -45,16 +45,23 @@ span:hover {
     align-items: center;
 }
 
+.eye {
+    position: absolute;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(178, 100%, 50%, 0.29);
+    border-radius: .5rem;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
 
-.banner:hover {
-    cursor:pointer;
-    filter: brightness(0) saturate(100%) invert(89%) sepia(62%) saturate(1293%) hue-rotate(92deg) brightness(110%) contrast(103%);
 }
 
-.eye {
-    position:absolute;
-    margin-left: rem;
-    visibility: hidden;
+.eye:hover {
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
 }
 
 
